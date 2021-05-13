@@ -1,0 +1,13 @@
+#!/bin/sh
+
+for name in $(git diff --cached --name-only ); 
+do
+       echo 
+       echo Possible autoformat: 
+       ktlint $name   
+       ktlint -F $name   
+       git add $name    
+done
+
+        echo Pre-commit finished
+
