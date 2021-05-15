@@ -22,3 +22,4 @@ W logout z polem "username"
 
 {"username": "userSample"}
 
+15.05 - Added SonarCloud in the project
