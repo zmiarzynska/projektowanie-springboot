@@ -8,7 +8,7 @@ class DemoApplicationTests {
 
 	@Test
 	fun contextLoads() {
-		// TODO implement test function
+		//implement test function
 	}
 
 }
